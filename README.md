@@ -1,20 +1,24 @@
+
+# Stegocracker 
 <p align="center">
+<img src="https://1.bp.blogspot.com/-sRHHygh4MG4/XzJxdxdJjuI/AAAAAAAAASI/ba_dvZg2zycNKbItEVP7RKJ37pD-N5EOwCLcBGAsYHQ/w594-h208/images.jpeg" width="600px" align="center" valign="middle">
+</p>
 
-[![Generic badge](https://img.shields.io/badge/Steganography-Tool<Green>.svg)](https://shields.io/) 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/W1LDN16H7)
-![Maintaner](https://img.shields.io/badge/maintainer-TH3W1LDN16HT-red)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+![Tool](https://img.shields.io/badge/Tool-Steganography-brightgreen?style=for-the-badge&logo=appveyor) [![Maintenance](https://img.shields.io/badge/Maintenance-Yes-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/W1LDN16H7)  [![Maintaner](https://img.shields.io/badge/Author-TheKnight-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/W1LDN16H7) ![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=appveyor)  [![made-with-python3](https://img.shields.io/badge/Made%20With-Python3-brightgreen?style=for-the-badge&logo=appveyor)](https://www.python.org/)  [![Open Source Love png3](https://img.shields.io/badge/open-source-blue?style=for-the-badge&logo=appveyor)](https://github.com/ellerbrock/open-source-badges/)  [![made-with-bash](https://img.shields.io/badge/madewith-bash-blue?style=for-the-badge&logo=appveyor)](https://www.gnu.org/software/bash/)  ![GitHub](https://img.shields.io/github/license/W1LDN16H7/StegoCracker?style=for-the-badge)  [![Operating System](https://img.shields.io/badge/Made%20For-Kali--Linux-blue?style=for-the-badge&logo=appveyor)](https://kali.org)  [![Operating System](https://img.shields.io/badge/Made%20For-Parrot-blue?style=for-the-badge&logo=appveyor)](https://parrotsec.org)  ![Follow](https://img.shields.io/github/followers/W1LDN16H7?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/W1LDN16H7/StegoCracker?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/W1LDN16H7/StegoCracker?style=for-the-badge)
+	
+	
+	
 </p>
 
 #                                                      Welcome To StegoCracker Home :house:
 <br>
 <br>
 <p align="center">
-	<img src="docs/usage.png" width="800px">
+	<img src="docs/usage1.png" width="1200px">
+</p>
+<br>
+<p align="center">
+	<img src="docs/usage2.png" width="1200px">
 </p>
 <br>
 
@@ -36,7 +40,7 @@ in future soon if you will contribute it will be good to me thanks
 </p>
 <br>
 
-**Stego is an open-source and free steganography tool that lets you hide your secret file in an image or audio file. You will not notice any change in the image or audio file. However, your secret file will be inside the original image or audio file.**
+**Stego is an open-source and free steganography tool that lets you hide your secret message in an image or audio file. You will not notice any change in the image or audio file. However, your secret file will be inside the original image or audio file.**
 
 **This is command-line tool. Therefore, you need to learn the commands to use the tool. Commands will be used to embed files in the image or audio file. In addition, to extract your file from the image or audio file, you need to use another command.**
 
@@ -50,35 +54,44 @@ in future soon if you will contribute it will be good to me thanks
 
 First clone the repo and follow 
 the given step
+```
 
-<code> git clone https://github.com/W1LDN16H7/StegoCracker.git </code>
-
+git clone https://github.com/W1LDN16H7/StegoCracker.git 
+```
 Change the dir to Stego
 
-<code>cd Stego*</code>
-
+```
+cd Stego
+```
 Run setup.py  with python3 to install all the dependencies
 
-**<code> python3 setup.py install </code>**
+```
+python3 setup.py install 
+```
 
 Or you can install manually 
 
-<code> python3 -m pip install -r requirements.txt </code>
-
+```
+python3 -m pip install -r requirements.txt 
+```
 After all that done run install.sh file in your terminal
 
-<code> chmod +x install.sh && ./install.sh </code>
+```
+chmod +x install.sh && ./install.sh 
+```
 
 Now it's all done 
 
 You can check it by running from anywhere in the terminal
 
-<code> stego -h </code>
+```
+stego -h 
+```
 
 Congratulation you have installed the stego
 
 <p align="center">
-	<img src="docs/usage.png" width="800px">
+	<img src="docs/usage1.png" width="1200px">
 </p>
 <br>
 
@@ -94,11 +107,13 @@ than you should use a stego -c feature to convert it into a wav file
 
 let's see
 
-<code> stego -c -f s.mp3 -out 26.wav </code>
+```
+stego -c -f s.mp3 -out 26.wav 
+```
 
 A new file named 26.wav will generate, and you can go further
 <p align="center">
-	<img src="docs/use6.png" width="800px">
+	<img src="docs/use6.png" width="1200px">
 </p>
 <br>
 
@@ -107,10 +122,12 @@ A new file named 26.wav will generate, and you can go further
 For hiding the message or data in wav file you need to
 run the command like this
 
-<code> stego -f 23.wav -out 24.wav -m "hello this is stego" -e </code>
+```
+stego -f 23.wav -out 24.wav -m "hello this is stego" -e 
+```
 
 <p align="center">
-	<img src="docs/use4.png" width="800px">
+	<img src="docs/use4.png" width="1200px">
 </p>
 <br>
 
@@ -121,9 +138,11 @@ as you can see it's done.Now we will try to decode the message.
 
 For decoding the data you need to have a wav file and turn the stego's decode mode on.
 
-<code> stego -f 24.wav -d </code>
+```
+stego  -d -f 24.wav
+```
 <p align="center">
-	<img src="docs/use5.png" width="800px">
+	<img src="docs/use5.png" width="1200px">
 </p>
 <br>
 
@@ -139,11 +158,12 @@ But if you can do this it will be amazing to everyone please contribute
 if you're interested in it,extend the features.
 
 - Encode message in image file
-
-<code> stego - i c.png -o out.png -e -m "Hello this is stego blah blah" </code>
+```
+stego - i c.png -o out.png -e -m "Hello this is stego blah blah" 
+```
 
 <p align="center">
-	<img src="docs/use1.png" width="800px">
+	<img src="docs/use1.png" width="1200px">
 </p>
 <br>
 Now it'll encode all the given data in that image and you'll see that there isn't any differance
@@ -153,10 +173,12 @@ In the image file
 
 For decoding use it like this..
 
-<code> stego -r out.png -d </code>
+```
+stego -d  -r out.png 
+```
 
 <p align="center">
-	<img src="docs/use2.png" width="800px">
+	<img src="docs/use2.png" width="1200px">
 </p>
 <br>
 We got the same result.
@@ -169,7 +191,7 @@ It is the end user's responsibility to obey all applicable local, state, federal
 Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
 
-### Please Contribute
+- [X] Please Contribute
 
 
 # License
